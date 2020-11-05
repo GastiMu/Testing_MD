@@ -1,0 +1,11 @@
+gramas2_RandomForest: gramas2.arff, idf y tft true, minFreq 8, nGramTok 1-3, word to keep 300 ------ RandomForest, use training set
+
+gramas2_LibLINEAR: gramas2.arff, idf y tft true, minFreq 8, nGramTok 1-3, word to keep 300 ------ LibLINEAR, use training set
+
+gramas2_SMO: gramas2_sinSubtipo.arff, idf y tft true, minFreq 8, nGramTok 1-3, word to keep 300 ------ SMO, use training set
+
+gramas4_RandomForest: gramas4_sinSubtipo.arff, idf y tft true, minFreq 6, nGramTok 1-3, word to keep 300 ------ RandomForest, use training set
+
+gramas4_LibLINEAR: gramas4_sinSubtipo.arff, idf y tft true, minFreq 6, nGramTok 1-3, word to keep 300 ------ LibLINEAR, use training set
+
+gramas4_SMO: gramas4_sinSubtipo.arff, idf y tft true, minFreq 6, nGramTok 1-3, word to keep 300 ------ SMO, use training set
